@@ -36,8 +36,8 @@
 }
 
 #atext{
-     margin-top: 2rem;
-   padding: 1px 60px;
+     margin-top: 1.5rem;
+   padding: 1px 4rem;
     color: hsl(193, 38%, 86%);
     font-size: 28px;
     text-align: center;
@@ -48,7 +48,7 @@
 #bd{
     display: flex;
     justify-content: space-between;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 #bd p{
    width: 35%;
@@ -61,6 +61,27 @@
     height: 14px;
         background: hsl(193, 38%, 86%);
     border-radius: 4px;
+}
+
+#next{
+    justify-content: center;
+  
+        display: flex;
+}
+#next svg:hover{
+    transition: all;
+    transition-duration: 0.0ms;
+    transition-timing-function: ease-in;
+    box-shadow: 1px 0px 4px 5px hwb(150 32% 0%);
+    padding: 12px;
+    margin: 6px;
+}
+#next svg{
+    cursor: pointer;
+    border-radius: 10rem;
+background-color: hsl(150, 100%, 66%);
+    padding: 10px;
+    margin: 5px;
 }
 
 
@@ -78,7 +99,7 @@
 
   }
     #atext{
-        font-size: 18px;
+        font-size: 20px;
         padding: 0 1rem;
     }
     #aid{
